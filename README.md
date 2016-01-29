@@ -1,4 +1,2 @@
 # Buffer
-Level 4 Compilers Assignment 1. 
-
 A buffer that can operate in three different modes: a “fixed-size” buffer, an “additiveself-incrementing” buffer, and a “multiplicativeself-incrementing” buffer. The buffer implementation is based on two associated data structures:a Buffer Descriptor (orBuffer Handle)and an array of characters (the actual character buffer). Both structures are to be created “on demand” at run time, that is, they are to be allocateddynamically.The Buffer Descriptoror Buffer Handle-the namessuggest the purpose of this buffer control data structure-contains all the necessary information about the array of characters: a pointer to the beginning of the character array location in memory, the current size, the next character entry position, the increment factor, the operational mode and some additional parameters.
